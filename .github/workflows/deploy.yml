@@ -1,0 +1,43 @@
+name: 🚀 Deploy Vite Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Deploy when pushing to main
+
+permissions:
+  contents: write  # Needed for gh-pages to push to the gh-pages branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout your code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Build the project
+      - name: Build Vite project
+        run: npm run build
+
+      # 5️⃣ Add custom domain
+      - name: Add CNAME file
+        run: echo "www.alruhperfumes.in" > dist/CNAME
+
+      # 6️⃣ Deploy to GitHub Pages branch
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
