@@ -2,11 +2,22 @@
   "products": [
     {
       "id": 1,
-      "name": "Royal Oud 789",
-      "description": "A luxurious blend of oud, rose, and amber creating an exotic and sophisticated fragrance that lasts all day.",
-      "price": 7499,
-      "mrp": 10999,
-      "image": "/images/products/pexels-photo-755992.jpeg",
+      "name": "Ibraheem Al Qurashi Blue Oud Eau De Parfum For Unisex",
+      "description": "Ibraheem Al Qurashi Blue Oud Eau De Parfum For Unisex
+Description
+It is bright and bold and fills the universe around you with a glowing scent that captures every breath. The finest Cambodian oud comes to you sweetened with the aroma of radiant blue lily, to reflect the strength of your personality. The details of your elegance and glamor appear with the appearance of leather decorated with breathtaking patchouli breezes. The smoky endnotes enriched with tobacco grains and sparkling crystal drops of amber add to the charm of your look.
+
+Fragrance Notes
+Top Notes- Blue Lily, Oud
+
+Middle Notes- Patchouli, Leather 
+
+Base Notes- Amber,Tabacco
+
+",
+      "price": 3999,
+      "mrp": 10500,
+      "image": "/images/public/images/banners/IbraheemAlQurashiBlueOud1_1800x1800.webp",
       "image1": "/al-ruh-perfumes/images/products/pexels-photo-755992.jpeg",
       "images": [
         "/images/products/pexels-photo-755992.jpeg",
