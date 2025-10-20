@@ -1,0 +1,15 @@
+{
+  "contactInfo": {
+    "email": "alruhperfumes@gmail.com",
+    "phone": "+91 79841 16346",
+    "address": "College Road, Beside Hawaiii Pizza, Modasa - 383315",
+    "businessHours": {
+      "weekdays": "Mon - Fri: 10:00 AM - 9:00 PM",
+      "weekends": "Sat - Sun: 10:00 AM - 7:00 PM"
+    },
+    "socialMedia": {
+      "whatsapp": "https://wa.me/917984116346",
+      "instagram": "https://instagram.com/alruh_perfumes"
+    }
+  }
+}

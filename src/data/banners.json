@@ -1,0 +1,54 @@
+{
+  "banners": [
+    {
+      "id": 1,
+      "title": "Premium Fragrances",
+      "subtitle": "Discover the Essence of Luxury",
+      "description": "Immerse yourself in our exquisite collection of premium perfumes",
+      "image": "/images/banners/pexels-photo-755992.jpeg",
+      "buttonText": "Shop Now",
+      "buttonLink": "#products",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "title": "Special Offers",
+      "subtitle": "Up to 50% Off",
+      "description": "Limited time offers on our best-selling fragrances",
+      "image": "/images/banners/pexels-photo-755992.jpeg",
+      "buttonText": "View Offers",
+      "buttonLink": "#sale",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "title": "New Arrivals",
+      "subtitle": "Latest Collection",
+      "description": "Be the first to experience our newest fragrance creations",
+      "image": "/images/banners/pexels-photo-755992.jpeg",
+      "buttonText": "Explore",
+      "buttonLink": "#new",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "title": "Festive Collection",
+      "subtitle": "Celebrate with Style",
+      "description": "Special festive fragrances for your celebrations",
+      "image": "/images/banners/pexels-photo-755992.jpeg",
+      "buttonText": "Shop Festive",
+      "buttonLink": "#festive",
+      "isActive": false
+    },
+    {
+      "id": 5,
+      "title": "Contact Us",
+      "subtitle": "Get in Touch",
+      "description": "Have questions? We're here to help you find the perfect fragrance",
+      "image": "/images/banners/pexels-photo-755992.jpeg",
+      "buttonText": "WhatsApp Us",
+      "buttonLink": "https://wa.me/917984116346",
+      "isActive": false
+    }
+  ]
+}
