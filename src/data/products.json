@@ -54,19 +54,18 @@
     },
     {
       "id": 4,
-      "name": "Fresh Breeze",
-      "description": "Crisp citrus and green notes create an invigorating scent that energizes and refreshes throughout the day.",
-      "price": 4999,
-      "mrp": 7499,
-      "image": "/images/products/pexels-photo-755992.jpeg",
+      "name": "FRENCH VANILLA AQUA PARFUM 100ML",
+      "description": "French Vanilla is a warm, aromatic fragrance that blends the freshness of lavender, bergamot, and cardamom with the spicy complexity of cinnamon, cumin, and spearmint. At its heart, the scent evolves with a delicate floral touch of lily of the valley, grounding the composition with rich, earthy base notes of musk, vanilla, dry woods, tobacco, and benzoin. This fragrance captures a balance between invigorating freshness and deep, comforting warmth, making it both sophisticated and inviting.",
+      "price": 1899,
+      "mrp": 5000,
+      "image": "/images/products/FrenchVanillaBottle.webp",
       "images": [
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg"
+        "/images/products/WhatsApp_Image_2025-07-12_at_10.24.31_AM_1.webp",
+        "/images/products/french_vanilla_web.webp"
       ],
-      "category": "Fresh",
+      "category": "Aromatic Spicy Floral",
       "isOnSale": true,
-      "salePercentage": 33,
+      "salePercentage": 62,
       "showSaleAnimation": true,
       "inStock": true
     },
