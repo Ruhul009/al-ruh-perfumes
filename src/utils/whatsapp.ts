@@ -1,5 +1,6 @@
 import { WHATSAPP_CONFIG } from '../config/whatsapp';
 import { Product } from '../types';
+import { calculateSalePercentage, isProductOnSale } from './priceUtils';
 
 // WhatsApp utility functions
 export const generateWhatsAppMessage = (product: Product, quantity: number = 1): string => {
@@ -15,8 +16,8 @@ ${template.productDetails.category.replace('{category}', product.category)}
 ${template.productDetails.quantity.replace('{quantity}', quantity.toString())}
 ${template.productDetails.total.replace('{total}', total.toLocaleString('en-IN'))}
 
-${product.isOnSale ? template.productDetails.originalPrice.replace('{originalPrice}', product.mrp.toLocaleString('en-IN')) : ''}
-${product.isOnSale ? template.productDetails.discount.replace('{discountPercentage}', product.salePercentage?.toString() || '0') : ''}
+${isProductOnSale(product.mrp, product.price) ? template.productDetails.originalPrice.replace('{originalPrice}', product.mrp.toLocaleString('en-IN')) : ''}
+${isProductOnSale(product.mrp, product.price) ? template.productDetails.discount.replace('{discountPercentage}', calculateSalePercentage(product.mrp, product.price).toString()) : ''}
 
 ${template.closing}`;
 
@@ -36,9 +37,9 @@ export const formatProductForWhatsApp = (product: Product): Partial<Product> => 
         name: product.name,
         price: product.price,
         category: product.category,
-        isOnSale: product.isOnSale,
+        isOnSale: isProductOnSale(product.mrp, product.price),
         mrp: product.mrp,
-        salePercentage: product.salePercentage,
+        salePercentage: calculateSalePercentage(product.mrp, product.price),
         description: product.description
     };
 };
