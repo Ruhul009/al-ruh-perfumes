@@ -71,19 +71,19 @@
     },
     {
       "id": 5,
-      "name": "Oriental Mystique",
-      "description": "Exotic spices and precious woods create an alluring and mysterious fragrance that commands attention.",
-      "price": 8999,
-      "mrp": 12999,
-      "image": "/images/products/pexels-photo-755992.jpeg",
+      "name": "NOIR AQUA PARFUM 100ML",
+      "description": "Noir Aqua Parfum is a refined woody-aqueous fragrance that opens with the bright, zesty notes of bergamot, lavender, and mandarin, creating a refreshing and uplifting start. The heart reveals a harmonious blend of aquatic nuances, jasmine, and soft cashmere wood, adding a smooth, elegant depth. The base is a warm, grounded mix of amber, earthy woods, and oak moss, offering a sophisticated, lasting finish. This fragrance is a perfect balance of fresh, floral, and woody elements, evoking both clarity and warmth.",
+      "price": 1899,
+      "mrp": 5000,
+      "image": "/images/products/NOIR_-1_2.webp",
       "images": [
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg"
+        "/images/products/NoirBottle.webp",
+        "/images/products/noir_web.webp"
+        
       ],
-      "category": "Oriental",
+      "category": "woody-aqueous",
       "isOnSale": true,
-      "salePercentage": 31,
+      "salePercentage":62,
       "showSaleAnimation": true,
       "inStock": true
     },
