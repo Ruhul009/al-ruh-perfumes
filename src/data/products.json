@@ -37,19 +37,18 @@
     },
     {
       "id": 3,
-      "name": "Woody Essence",
-      "description": "Rich sandalwood and cedar notes create a warm, masculine fragrance perfect for evening wear.",
-      "price": 6999,
-      "mrp": 9999,
-      "image": "/images/products/pexels-photo-755992.jpeg",
+      "name": "Paris Oud Aqua Parfum 75ML",
+      "description": "Paris Oud is more than a fragrance; it is an olfactory journey that transports you to the heart of Paris as night falls. Each spritz is a passport to an evening of enchantment, where every street and every moment is filled with magic and mystery. With Paris Oud, you carry the essence of a Parisian evening wherever you go, a constant reminder of the romance and allure that only Paris can offer",
+      "price": 1999,
+      "mrp": 5000,
+      "image": "/images/products/paris-oud-02.webp",
       "images": [
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg"
+        "/images/products/parisoud.webp",
+        "/images/products/paris_oud_1.webp"
       ],
       "category": "Woody",
       "isOnSale": true,
-      "salePercentage": 30,
+      "salePercentage": 60,
       "showSaleAnimation": true,
       "inStock": true
     },
