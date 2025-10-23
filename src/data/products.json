@@ -7,14 +7,13 @@
       "price":3999,
       "mrp":10500,
       "image":"/images/products/IbraheemAlQurashiBlueOud1_1800x1800.webp",
-      "image1":"/al-ruh-perfumes/images/products/pexels-photo-755992.jpeg",
       "images": [
         "/images/products/IbraheemAlQurashiBlueOud3_1800x1800.webp",
         "/images/products/IbraheemAlQurashiBlueOud4_1800x1800.webp"
       ],
       "category": "Oud",
       "isOnSale": true,
-      "salePercentage": 50,
+      "salePercentage": 62,
       "showSaleAnimation": true,
       "inStock": true
     },
