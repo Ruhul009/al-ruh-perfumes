@@ -89,19 +89,23 @@
     },
     {
       "id": 6,
-      "name": "Citrus Splash",
-      "description": "Zesty lemon, bergamot, and grapefruit create a bright and uplifting fragrance perfect for summer days.",
-      "price": 3999,
-      "mrp": 5999,
-      "image": "/images/products/pexels-photo-755992.jpeg",
+      "name": "Royal Tobacco Oud Perfume For Men 100ml",
+      "description": "A person's personality is mainly described by the fragrances, so if you want to be the best personality in the group, smell like one.
+
+Our perfumes are made using premium-quality ingredients, which ensure an everlasting Fragrance. Give the bottle a good, hard shake first to ensure all the ingredients are mixed before you spray it.
+
+",
+      "price": 1699,
+      "mrp": 3000,
+      "image": "/images/products/royal tobecco oud 1.webp",
       "images": [
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg",
-        "/images/products/pexels-photo-755992.jpeg"
+        "/images/products/royal tobecco oud 2.webp",
+        "/images/products/tobecco oud 3.webp",
+        "/images/products/tobecco oud 4.webp"
       ],
-      "category": "Citrus",
+      "category": "woody-Smokey",
       "isOnSale": true,
-      "salePercentage": 33,
+      "salePercentage": 48,
       "showSaleAnimation": true,
       "inStock": true
     },
